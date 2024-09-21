@@ -1,29 +1,38 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
+    "role": "Frontend Developer",
+    "organisation": "Anamarhs Web Solutions",
+    "startDate": "July 2024",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Created multiple landing pages using Next.js and TypeScript, ensuring fast performance and modern design.",
+      "Developed and maintained responsive websites with optimized user experiences."
+      
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/anamarh.png"
+  },
+  {
+    "role": "Web Developer",
+    "organisation": "Vyza Solutions Pvt Ltd",
+    "startDate": "January 2024",
+    "endDate": "June 2024",
+    "experiences": [
+      "Developed dynamic and scalable websites using React.js, optimizing performance and user experience.",
+      "Collaborated with backend developers to integrate APIs and ensure seamless functionality."
+    ],
+    "imageSrc": "history/vyza.jpeg"
+  },
+  
+  {
+    "role": "Frontend Developer",
+    "organisation": "Spontom & Co.",
+    "startDate": "February 2024",
+    "endDate": "May 2024",
+    "experiences": [
+      "Contributed to the development of the Doctor Appointment System project, focusing on user interface and experience.",
+      "Led the frontend development using modern web technologies to create an intuitive, responsive design."
+    ],
+    "imageSrc": "history/spontom-Co.jpeg"
   }
+ 
 ]

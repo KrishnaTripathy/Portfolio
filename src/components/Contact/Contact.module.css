@@ -7,21 +7,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  width: 100%;
+  padding: 3rem 10%;
+  gap: 1rem;
+  box-sizing: border-box;
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 4rem; /* 64px */
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
+  text-align: center;
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 2rem; /* 32px */
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
+  text-align: center;
 }
 
 .links {
@@ -29,36 +32,109 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 1.5rem;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 1.5rem;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.5rem; /* 24px */
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1rem;
+  word-wrap: break-word;
 }
 
-@media screen and (max-width: 830px) {
+.link img {
+  width: 40px; /* Adjust the size of the icons */
+  height: 40px;
+}
+
+/* Tablet Devices */
+@media screen and (max-width: 1024px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    padding: 2.5rem 5%;
   }
 
-  .text {
-    display: flex;
+  .text h2 {
+    font-size: 3.5rem; /* 56px */
+  }
+
+  .text p {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .links {
+    gap: 1.25rem;
+  }
+
+  .link img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+  .container {
     flex-direction: column;
-    align-items: center;
+    padding: 2rem 5%;
+    gap: 2rem;
+  }
+
+  .text h2 {
+    font-size: 3rem; /* 48px */
+  }
+
+  .text p {
+    font-size: 1.5rem; /* 24px */
   }
 
   .links {
     align-items: center;
+    gap: 1rem;
+  }
+
+  .link a {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .link img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 1.5rem 3%;
+    gap: 1.5rem;
+  }
+
+  .text h2 {
+    font-size: 2.5rem; /* 40px */
+  }
+
+  .text p {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .links {
+    gap: 0.75rem;
+  }
+
+  .link img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .link a {
+    font-size: 1rem; /* 16px */
   }
 }

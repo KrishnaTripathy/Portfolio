@@ -14,34 +14,51 @@ export const About = () => {
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
+          {/* MCA Section */}
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/mca.jpg")} alt="MCA icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Master of Computer Applications (MCA)</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Completed MCA with a focus on advanced software development and
+                systems design.
               </p>
+              <div className={styles.extraDetails}>
+                <span className={styles.percentage}>Percentage: 77%</span>
+                <span className={styles.passout}>Year of Passout: 2023</span>
+              </div>
             </div>
           </li>
+
+          {/* BSc Section */}
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/bsc-.jpg")} alt="BSc icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Bachelor of Science (B.Sc.)</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Graduated with a B.Sc. degree, specializing in Computer Science
+                and Mathematics.
               </p>
+              <div className={styles.extraDetails}>
+                <span className={styles.percentage}>Percentage: 75.5%</span>
+                <span className={styles.passout}>Year of Passout: 2021</span>
+              </div>
             </div>
           </li>
+
+          {/* +2 Section */}
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/higher-secondary.jpg")} alt="+2 icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Higher Secondary Education (+2)</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Completed Higher Secondary Education with a major in Science,
+                focusing on Physics, Chemistry, and Mathematics.
               </p>
+              <div className={styles.extraDetails}>
+                <span className={styles.percentage}>Percentage: 60.5%</span>
+                <span className={styles.passout}>Year of Passout: 2018</span>
+              </div>
             </div>
           </li>
         </ul>

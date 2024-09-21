@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "photography-agency-landing-page",
+    "imageSrc": "projects/photography.png",
+    "description": "A responsive landing page for a photography agency built with Next.js, TypeScript, and Tailwind CSS.",
+    "skills": ["Nextjs", "Typescript", "Tailwind css"],
+    "demo": "https://krishna-photography.netlify.app/",
+    "source": "https://github.com/KrishnaTripathy/photography-agency-landing-page"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "it-solution-website",
+    "imageSrc": "projects/it-solution.png",
+    "description": "A modern website for an IT provider using React, JavaScript, and Tailwind CSS.",
+    "skills": ["React", "javascript", "Tailwind css"],
+    "demo": "https://vectrium-venture-web.netlify.app/",
+    "source": "https://github.com/KrishnaTripathy/it-solution-website"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Iceland-Travel-Landing-Page",
+    "imageSrc": "projects/sland.png",
+    "description": "A travel landing page for Iceland, built with Next.js, TypeScript, and Tailwind CSS.",
+    "skills": ["Nextjs", "Typescript", "Tailwind css"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/KrishnaTripathy/Iceland-Travel-Landing-Page"
   }
 ]

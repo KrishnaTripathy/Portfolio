@@ -24,3 +24,37 @@
   gap: 15px;
   width: 100%;
 }
+
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 30px; 
+  }
+
+  .projects {
+    gap: 20px; 
+  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 25px; 
+    text-align: center; 
+  }
+
+  .projects {
+    flex-direction: column; 
+    gap: 25px; 
+  }
+}
